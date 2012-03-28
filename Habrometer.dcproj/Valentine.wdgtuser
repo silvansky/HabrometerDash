@@ -19,13 +19,15 @@
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>0</integer>
+	<integer>5</integer>
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Destination</key>
 		<string>localhost.default</string>
 		<key>Path</key>
 		<string>Habrometer</string>
+		<key>SavePath</key>
+		<string>/Users/Valentine/Projects/HabrometerDash</string>
 		<key>enableSimulation</key>
 		<true/>
 		<key>simulatedHost</key>
@@ -76,7 +78,11 @@
 			</array>
 		</array>
 		<key>Objects view last selections</key>
-		<array/>
+		<array>
+			<array>
+				<integer>5</integer>
+			</array>
+		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
 			<string>front</string>
