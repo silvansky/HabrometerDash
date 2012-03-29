@@ -67,6 +67,7 @@ function updateStats()
     {
         var url = userImageUrl();
         log(url);
+        document.getElementById("habrometer").firstElementChild.src = "";
         document.getElementById("habrometer").firstElementChild.src = url;
     }
     startTimer(updateInterval);
