@@ -1,5 +1,5 @@
 var updateTimer;
-var updateInterval = (((60*1000) * 60) * 24);
+var updateInterval = (((60*1000) * 60) * 5);
 var preferenceKey = "habrometerUserName";
 var userImageUrl;
 
