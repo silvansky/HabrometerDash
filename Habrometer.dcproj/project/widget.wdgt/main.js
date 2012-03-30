@@ -15,6 +15,11 @@ function log(message)
     }
 }
 
+function getRandom()
+{
+    return Math.floor((Math.random()*100000000)+1);
+}
+
 //-------------------------------------------------//
 function userName()
 {
@@ -28,7 +33,7 @@ function setUserName(name)
 
 function userImageUrl()
 {
-    return "http://habrometr.ru/habrometr_425x120_" + userName() + ".png";
+    return "http://habrometr.ru/habrometr_425x120_" + userName() + ".png?rand=" + getRandom();
 }
 
 //-------------------------------------------------//
